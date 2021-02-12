@@ -1,0 +1,55 @@
+*{margin: 0; padding: 0;}
+
+.taxi
+{
+    width: 1300px;
+    
+}
+
+ img
+{
+
+    position: absolute;
+    animation:  speedy-taxi 2s  infinite steps(1000) alternate both;
+   
+    
+}
+
+@keyframes speedy-taxi {
+    0% {
+        
+        top: 0px;
+        left: 0px;
+        
+    }
+    
+    
+    100%
+    {
+        left: 90%;
+        top: 0;
+        transform: rotate(180deg);
+        transform-origin: 90% 90%;
+    }
+
+
+
+  /* @keyframes rotate {
+    0% {
+        transform: scalex(0);
+        
+    }
+    
+    100%
+    {
+      transform: scalex(-1);
+        
+        
+    }
+
+    
+
+  }
+
+ 
+ */
